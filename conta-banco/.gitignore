@@ -1,2 +1,27 @@
+# Ignora arquivos compilados
 *.class
-.vscode/
+
+# Ignora diretórios de build
+/bin/
+/build/
+/out/
+
+# Ignora configurações de IDEs
+/.idea/
+/.vscode/
+/*.iml
+
+# Ignora arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora dependências baixadas (se você usar Maven ou Gradle futuramente)
+target/
+*.jar
+*.war
+*.ear
+
+# Ignora arquivos temporários
+*.log
+*.tmp
+*.swp
